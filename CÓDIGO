@@ -1,0 +1,127 @@
+Diferenças entre as linguagens JAVA, PYTON e RUBY:
+Java: é uma linguagem interpretativa, significa que ela vai interpretar um arquivo com uma lista de comandos.
+Um outro tipo de linguagem é a linguagem compilada, na qual ela pega um arquivo com uma lista de comandos e compila (traduz) para linguagem de máquina.
+A linguagem Java foi projetada tendo em vista os seguintes objetivos:
+Orientação a objetos - Baseado no modelo de Simular;
+Portabilidade - Independência de plataforma - "escreva uma vez, execute em qualquer lugar" ("write once, run anywhere");
+Recursos de Rede - Possui extensa biblioteca de rotinas que facilitam a cooperação com protocolos TCP/IP, como HTTP e FTP;
+Segurança - Pode executar programas via rede com restrições de execução.
+Além disso, podem-se destacar outras vantagens apresentadas pela linguagem:
+Sintaxe similar a C/C++
+Facilidades de Internacionalização - Suporta nativamente caracteres Unicode;
+Simplicidade na especificação, tanto da linguagem como do "ambiente" de execução (JVM);
+É distribuída com um vasto conjunto de bibliotecas (ou APIs);
+Possui facilidades para criação de programas distribuídos e multitarefa (múltiplas linhas de execução num mesmo programa);
+Desalocação de memória automática por processo de coletor de lixo;
+Carga Dinâmica de Código - Programas em Java são formados por uma coleção de classes armazenadas independentemente e que podem ser carregadas no momento de utilização.
+
+Pyton: Python é uma linguagem de propósito geral de alto nível, multiparadigma, suporta o paradigma orientado a objetos, imperativo, funcional e procedural. Possui tipagem dinâmica e uma de suas principais características é permitir a fácil leitura do código e exigir poucas linhas de código se comparado ao mesmo programa em outras linguagens. Devido às suas características, ela é utilizada, principalmente, para processamento de textos, dados científicos e criação de CGIs para páginas dinâmicas para a web. Foi considerada pelo público a 3ª linguagem "mais amada", de acordo com uma pesquisa conduzida pelo site Stack Overflow em 2018 e está entre as 5 linguagens mais populares, de acordo com uma pesquisa conduzida pela RedMonk.
+
+Ruby: Todas as variáveis são objetos, onde até os "tipos primitivos" (tais como inteiro, real, entre outros) são classes
+Métodos de geração de código em tempo real, como os "attribute accessors"
+Através do RubyGems, é possível instalar e atualizar bibliotecas com uma linha de comando, de maneira similar ao APT do Debian Linux
+Code blocks (blocos de código) passados como parâmetros para métodos; permite a criação de clausuras
+Mixins, uma forma de emular a herança múltipla
+Tipagem dinâmica, mas forte. Isso significa que todas as variáveis devem ter um tipo (fazer parte de uma classe), mas a classe pode ser alterada dinamicamente.
+
+CÓDIGOS: 
+
+CÓDIGO 1.
+Linguagem: Java
+Local de execução: https://compiler.javatpoint.com/opr/test.jsp?filename=Simple
+Compilado por: javac Simple.java
+Executado por: java Simples
+
+Programa:
+----------------------------------------------------------------
+public class Simple{
+public static void main(String args[]){
+System.out.println("Olá Carolina");
+System.out.println("Oi Vaner");
+}}
+----------------------------------------------------------------
+Saída: 
+----------------------------------------------------------------
+Olá Carolina 
+Oi Vaner
+----------------------------------------------------------------
+
+
+CÓDIGO 2.
+Linguagem: Pyton 
+Local de execução: https://www.online-python.com/
+
+Programa:
+----------------------------------------------------------------
+a = int(input('Entre com o 1° número: '))
+b = int(input('Entre com o 2° número: '))
+soma = a + b 
+media = (a + b) / 2
+print(f'soma do primeiro número + segundo número = {soma}')
+print(f'média do primeiro e  segundo número = {media}')
+----------------------------------------------------------------
+Saída:
+Entre com o 1° número: 
+36
+Entre com o 2° número: 
+91
+soma do primeiro número + segundo número = 127
+média do primeiro e  segundo número = 63.5
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+
+
+CÓDIGO 3.
+Linguagem: Ruby
+Local de execução: https://www.onlinegdb.com/online_ruby_compiler
+
+Programa:
+----------------------------------------------------------------
+resposta1 = 155
+resposta2 = 121
+resposta3 = 171 
+nota = 0
+respostaaluno = 0
+
+puts "prova de direito"
+puts ""
+puts "vamos começar (pressione enter)?"
+readline
+puts ""
+puts "Qual artigo do Código Penal corresponnde ao crime de furto?"
+respostaaluno = gets.to_i
+if (respostaaluno == resposta1)
+    nota = nota + 1
+end
+
+puts "Qual artigo do Código Penal corresponnde ao crime de homicídio simples?"
+respostaaluno = gets.to_i
+if (respostaaluno == resposta2)
+    nota = nota + 1
+end
+
+puts "Qual artigo do Código Penal corresponde ao crime de estelianato?"
+respostaaluno = gets.to_i
+if (respostaaluno == resposta3)
+    nota = nota + 1
+end
+
+puts "SUA NOTA É #{nota}"
+----------------------------------------------------------------
+Saída:
+----------------------------------------------------------------
+prova de direito
+
+vamos começar (pressione enter)?
+
+
+Qual artigo do Código Penal corresponnde ao crime de furto?
+155
+Qual artigo do Código Penal corresponnde ao crime de homicídio simples?
+121
+Qual artigo do Código Penal corresponde ao crime de estelianato?
+9
+SUA NOTA É 2
+----------------------------------------------------------------
