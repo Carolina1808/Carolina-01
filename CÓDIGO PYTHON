@@ -1,1 +1,55 @@
 1. Estrutura de repetição:
+Linguagem: Python;
+Local de execução: https://www.online-python.com/
+
+Entrada:
+--------------------------------------------------------------------------------------------
+# Exemplo de loop for para iterar sobre uma lista de números e imprimir cada número + 1
+numeros = [1, 2, 3, 4, 5]
+
+print("Iterando sobre os números:")
+for numero in numeros:
+    print(numero + 1)
+--------------------------------------------------------------------------------------------
+
+Saída:
+--------------------------------------------------------------------------------------------
+Iterando sobre os números:
+2
+3
+4
+5
+6
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+--------------------------------------------------------------------------------------------
+
+2. Tomada de decisão:
+Linguagem: Python;
+Local de execução: https://www.onlinegdb.com/online_python_debugger
+
+Entrada:
+--------------------------------------------------------------------------------------------
+# Exemplo de estrutura de tomada de decisão para verificar se um número é positivo, negativo ou zero
+numero = float(input("Digite um número: "))
+
+if numero > 0:
+    print("O número é positivo.")
+elif numero == 0:
+    print("O número é zero.")
+else:
+    print("O número é negativo.")
+--------------------------------------------------------------------------------------------
+
+Saída:
+--------------------------------------------------------------------------------------------
+Digite um número: 
+-6
+O número é negativo.
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
+--------------------------------------------------------------------------------------------
