@@ -1,0 +1,11 @@
+Em primeiro plano, cabe destacar que algoritmo é um método efetivo expresso como um conjunto de intruções que devem ser feitas para realizar uma tarefa. O mesmo tem como características:
+1. Finitude: deve sempre terminar após um número finito de passos;
+2. Bem definido: cada passo de um algoritmo deve ser precisamente definido, sem que haja ambiguidades;
+3. Entradas: informações, externas ao computador, que são fornecidas antes do algoritmo iniciar;
+4. Saídas: resultado final do algoritmo , deve sempre ter uma ou mais;
+5. Efetividade: todas as operações devem ser suficientemente básicas dde modo que possam ser executadas com precisão, em um tempo finito, por uma pessoa.
+Em paralelo, cabe destacar como os algoritmos se comprtam nas redes sociais. Os algoritmos das redes sociais identificam quais publicações devem ser entregues para mais ou menos pessoas. 
+Eles decidem como ranquear os resultados de um feed, a partir do grau de relevância daquele conteúdo para cada usuário. O objetivo é melhorar a experiência do usuário, fazendo com que 
+apareçam na linha do tempo somente os posts mais úteis e atrativos, senod assim, eles podem impulsionar ou atrapalhar o alcance de um conteúdo. Os algoritmos levam em conta, principalmente, 
+o comportamento e a interação do usuário com o seu conteúdo. Se o usuário interage, comentando, curtindo ou compartilhando suas publicações, maiores as chances do seu conteúdo continuar 
+aparecendo na linha do tempo dele. O engajamento é um dos principais critérios de análise dos algoritmos das redes sociais. 
